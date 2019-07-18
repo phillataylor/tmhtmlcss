@@ -1,0 +1,18 @@
+* {
+    border: 1px dashed hotpink;
+}
+
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    /*border: 2px solid red;*/
+    border-radius: 50px;
+    display:inline-block;
+    margin: 0 30px;
+}
