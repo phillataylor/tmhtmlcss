@@ -1,0 +1,77 @@
+section#idx-atf {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/background-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#idx-atf > div {
+    height: 20vh;
+}
+
+.idx-center-spacebetween {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.idx-center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* text-align: center;
+    color: white; */
+}
+
+h1, h2, h3, button {
+    text-transform: uppercase;
+    font-family: 'Cantarell', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    letter-spacing: .5rem;
+    /* margin: 2rem; */
+}
+
+h2 {
+    /* font-family: 'Kotta One', serif; */
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    margin: .5rem;
+}
+
+h3 {
+    font-size: .75rem;
+    color: #dddddd;
+    letter-spacing: .15rem;
+    /* margin-bottom: 2rem; */
+
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(202, 250, 234);
+    padding: 1rem;
+    border: 1px solid rgb(202, 250, 234);
+    border-radius: 3px;
+}
