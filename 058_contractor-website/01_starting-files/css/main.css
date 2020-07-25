@@ -1,5 +1,6 @@
 html {
     font-size: 1vw;
+    color: #666666;
 }
 
 body {
@@ -21,11 +22,21 @@ header {
     align-items: center;
     /* format*/
     margin-top: 1rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.75rem;
 }
 
 h1 {
     font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Alice', serif;
+    font-size: 3.5rem;
 }
 
 header nav {
@@ -39,22 +50,104 @@ header nav a {
     width: 10%;
     margin: 1rem 1.5%;
     height: 1.5rem;
-    border: 1px solid black;
-    background-color: gray;
+    /* border: 1px solid black; */
+    /* background-color: gray; */
+    background-color: #F6F6F6;
     /* arrange content */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 header nav div {
     width: 25%;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+#idx-spotlight {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/fam_blur.jpg");
+    background-position: center 30%; 
+    background-size: cover; 
+    color: white;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.idx-spotlight-content {
+    /* border: 1px solid green; */
+    height: 30%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.idx-spotlight-content h2 {
+    font-size: 4.5rem;
+    font-weight: bold;
 }
 
 
+.idx-message p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
 
+div.cta-box {
+    /* border: 1px solid skyblue; */
+    margin: 1.5rem;
+}
 
+a.cta-link {
+    font-family: 'Open sans', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    background-color: red;
+    padding: .5rem;
+    color: white;
+}
+
+.idx-content {
+    width: 80%;
+    margin: 3% auto 0 auto;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    flex-flow: default;
+}
+article h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+article h2 {
+    font-family: 'Alice', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 0.3rem 0;
+}
+
+article p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 15px 0; 
+}
+
+article div.cta-box {
+    align-self: center;
+}
 
 
 

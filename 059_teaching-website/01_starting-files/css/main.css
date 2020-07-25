@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: space-between;
     /* format*/
+
+    background-image: url("/059_teaching-website/01_starting-files/images/g_s_03_five.jpg");
 }
 
 header {
